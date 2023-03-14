@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>functions 1 - Say Hello</h1>
+    <p>
+      Ligesom med strings-øvelserne, kommer der flere function-øvelser, hver med
+      deres egen html og js-fil. Du bør lægge alle øvelserne i den samme mappe –
+      du kan endda bruge mappen fra strings, så har du alle øvelser samlet ét
+      sted
+      <br />
+      <br />
+      Denne øvelse har functions1.html og functions1.js – som altid indeholder
+      html-filen med navnet “sayHello”.
+      <br />
+      <br />
+      Koden køres med konsollen åben, og alt output er console.log
+      <br />
+      <br />
+      Opgaven <br />
+      Lav/erklær en funktion sayHello
+      <br />
+      <br />
+      Den skal modtage én parameter, et navn, kaldet firstName.
+      <br />
+      <br />
+      Når den kører skal den blot udskrive “Hello firstName” i konsollen.
+      <br />
+      <br />
+      Altså, når den kaldes med argumentet “Peter” så skriver den “Hello Peter”
+      <br />
+      <br />
+
+      Test først funktionen ved at kalde den både med en variabel og en literal:
+      <br />
+      <br />
+      const myName = "Peter";sayHello( myName );sayHello( "Noget andet end
+      Peter" ); <br />
+      Afprøvninger <br />
+      Ændr i koden og eksperimentér for at finde svar på disse spørgsmål:
+      <br />
+      <br />
+      Hvad sker der hvis funktionen bliver erklæret i bunden af js-filen, men
+      kaldt i toppen?
+      <br />
+      Hvad sker der hvis funktionen kaldes med en variabel der hedder firstName?
+      <br />
+      const firstName = "Peter"; <br />
+      sayHello( firstName ); <br />
+      Hvad sker der hvis funktionen kaldes uden en parameter? Hvis der stadig
+      findes en variabel der hedder firstName, og hvad hvis der ikke længere
+      findes en variabel? <br />
+      Hvad sker der hvis funktionen kaldes med firstName og lastname, altså der
+      er lavet variabler for begge, og den kaldes med: <br />
+      sayHello( firstName, lastName ); <br />
+      Hvad hvis de to bliver byttet om, så den kaldes med: <br />
+      sayHello( lastName, firstName ); <br />
+      Prøv også om det gør nogen forskel om variablen du bruger som argument
+      hedder firstName ligesom parameteren, eller om den hedder noget helt
+      andet.
+    </p>
+    <script src="functions1.js"></script>
+  </body>
+</html>

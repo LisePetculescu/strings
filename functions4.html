@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>functions 4 - greeting</h1>
+    <p>
+      Denne øvelse har functions4.html og functions4.js – som altid indeholder
+      html-filen med navnet “greeting”.
+      <br />
+      <br />
+      Koden køres med konsollen åben, og alt output er console.log
+      <br />
+      <br />
+      Opgaven <br />
+      Lav en funktion greeting
+      <br />
+      <br />
+      Den skal modtage én parameter, et navn, kaldet firstName.
+      <br />
+      <br />
+      Når den kører skal den returnere teksten “Hello firstName” – altså når den
+      kaldes med argumentet “Peter” så returnerer den “Hello Peter”
+      <br />
+      <br />
+
+      Funktionen skal ikke selv udskrive noget, så test den med en variabel og
+      udskriv den:
+      <br />
+      <br />
+      const result = greeting("Peter");
+      <br />
+      console.log( result ); <br />
+      Afprøvninger <br />
+      Kald funktionen på forskellige måder, med forskellige parametre og
+      eksperimentér for at finde svar på disse spørgsmål:
+      <br />
+      <br />
+      <br />
+      Hvad sker der hvis funktionen bare bliver kaldt, uden at en variabel
+      bliver sat lig med den? Altså at der bare står greeting(“et navn”); på en
+      linje? <br />
+      Hvad sker der hvis funktionen bliver kaldt ude i konsollen, altså du
+      skriver greeting(“et navn”) og trykker enter? <br />
+      Hvad sker der hvis funktionen kaldes direkte i en console.log? Altså
+      console.log(greeting(“et navn”)); ? <br />
+      Hvad sker der hvis funktionen kaldes uden en parameter? <br />
+      Hvad sker der hvis funktionen kaldes inde i en template string, fx const
+      txt = `Greeting is ${greeting(“et navn”)}`;
+    </p>
+    <script src="functions4.js"></script>
+  </body>
+</html>
